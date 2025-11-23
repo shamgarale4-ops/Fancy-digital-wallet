@@ -1,0 +1,427 @@
+{
+  "accounts": {
+    "alice": {
+      "pin": "0ffe1abd1a08215353c233d6e009613e95eec4253832a761af28ff37ac5a150c",
+      "balance": 2500.0,
+      "locked": false,
+      "is_verified": true,
+      "enable_2fa": true,
+      "transactions": [],
+      "notifications": []
+    },
+    "bob": {
+      "pin": "edee29f882543b956620b26d0ee0e7e950399b1c4222f5de05e06425b4c995e9",
+      "balance": 500.0,
+      "locked": false,
+      "is_verified": false,
+      "enable_2fa": false,
+      "transactions": [],
+      "notifications": []
+    },
+    "samadhan": {
+      "pin": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "balance": 3180.0,
+      "locked": false,
+      "is_verified": true,
+      "enable_2fa": false,
+      "transactions": [
+        {
+          "id": "1763748769465",
+          "timestamp": "2025-11-21 23:42:49",
+          "type": "deposit",
+          "amount": 10000.0,
+          "note": "Opening Balance",
+          "category": "Other",
+          "counterparty": "Self"
+        },
+        {
+          "id": "TXN-1763877880",
+          "timestamp": "2025-11-23 11:34",
+          "type": "withdraw",
+          "amount": 200.0,
+          "note": "Cash",
+          "category": "Other",
+          "counterparty": "ATM"
+        },
+        {
+          "id": "TXN-1763879324",
+          "timestamp": "2025-11-23 11:58",
+          "type": "transfer_out",
+          "amount": 200.0,
+          "note": "Payment",
+          "category": "Transfer",
+          "counterparty": "arati"
+        },
+        {
+          "id": "TXN-1763879960",
+          "timestamp": "2025-11-23 12:09",
+          "type": "transfer_out",
+          "amount": 1000.0,
+          "note": "Payment",
+          "category": "Transfer",
+          "counterparty": "arati"
+        },
+        {
+          "id": "TXN-1763880058",
+          "timestamp": "2025-11-23 12:10",
+          "type": "transfer_out",
+          "amount": 100.0,
+          "note": "Payment",
+          "category": "Transfer",
+          "counterparty": "supriya"
+        },
+        {
+          "id": "TXN-1763880662",
+          "timestamp": "2025-11-23 12:21",
+          "type": "withdraw",
+          "amount": 1000.0,
+          "note": "Cash",
+          "category": "Other",
+          "counterparty": "ATM"
+        },
+        {
+          "id": "TXN-1763880739",
+          "timestamp": "2025-11-23 12:22",
+          "type": "transfer_out",
+          "amount": 1000.0,
+          "note": "Payment",
+          "category": "Transfer",
+          "counterparty": "supriya"
+        },
+        {
+          "id": "TXN-1763880818",
+          "timestamp": "2025-11-23 12:23",
+          "type": "withdraw",
+          "amount": 100.0,
+          "note": "Cash",
+          "category": "Shopping",
+          "counterparty": "ATM"
+        },
+        {
+          "id": "TXN-1763881030",
+          "timestamp": "2025-11-23 12:27",
+          "type": "transfer_out",
+          "amount": 1000.0,
+          "note": "Payment",
+          "category": "Transfer",
+          "counterparty": "supriya"
+        },
+        {
+          "id": "TXN-1763881829",
+          "timestamp": "2025-11-23 12:40",
+          "type": "transfer_out",
+          "amount": 120.0,
+          "note": "Payment",
+          "category": "Transfer",
+          "counterparty": "arati"
+        },
+        {
+          "id": "TXN-1763884324",
+          "timestamp": "2025-11-23 13:22",
+          "type": "bill_pay",
+          "amount": 1000.0,
+          "note": "\ud83d\udcf1 Mobile Recharge",
+          "category": "Bills",
+          "counterparty": "Utility"
+        },
+        {
+          "id": "TXN-1763884352",
+          "timestamp": "2025-11-23 13:22",
+          "type": "bill_pay",
+          "amount": 1000.0,
+          "note": "\ud83d\udcf1 Mobile Recharge",
+          "category": "Bills",
+          "counterparty": "Utility"
+        },
+        {
+          "id": "TXN-1763884647",
+          "timestamp": "2025-11-23 13:27",
+          "type": "bill_pay",
+          "amount": 100.0,
+          "note": "\ud83d\udcf1 Mobile Recharge",
+          "category": "Bills",
+          "counterparty": "Utility"
+        }
+      ],
+      "notifications": [
+        {
+          "time": "13:27",
+          "msg": "Paid \ud83d\udcf1 Mobile Recharge of \u20b9100.0"
+        },
+        {
+          "time": "13:22",
+          "msg": "Paid \ud83d\udcf1 Mobile Recharge of \u20b91000.0"
+        },
+        {
+          "time": "13:22",
+          "msg": "Paid \ud83d\udcf1 Mobile Recharge of \u20b91000.0"
+        }
+      ]
+    },
+    "arati": {
+      "pin": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "balance": 22420.0,
+      "locked": false,
+      "is_verified": true,
+      "enable_2fa": true,
+      "transactions": [
+        {
+          "id": "TXN-1763877936",
+          "timestamp": "2025-11-23 11:35",
+          "type": "deposit",
+          "amount": 10000.0,
+          "note": "Opening Balance",
+          "category": "Other",
+          "counterparty": "Self"
+        },
+        {
+          "id": "TXN-1763879324",
+          "timestamp": "2025-11-23 11:58",
+          "type": "transfer_in",
+          "amount": 200.0,
+          "note": "Payment",
+          "category": "Uncategorized",
+          "counterparty": "samadhan"
+        },
+        {
+          "id": "TXN-1763879545",
+          "timestamp": "2025-11-23 12:02",
+          "type": "transfer_in",
+          "amount": 100.0,
+          "note": "Payment",
+          "category": "Uncategorized",
+          "counterparty": "supriya"
+        },
+        {
+          "id": "TXN-1763879960",
+          "timestamp": "2025-11-23 12:09",
+          "type": "transfer_in",
+          "amount": 1000.0,
+          "note": "Payment",
+          "category": "Uncategorized",
+          "counterparty": "samadhan"
+        },
+        {
+          "id": "TXN-1763881829",
+          "timestamp": "2025-11-23 12:40",
+          "type": "transfer_in",
+          "amount": 120.0,
+          "note": "Payment",
+          "category": "Uncategorized",
+          "counterparty": "samadhan"
+        },
+        {
+          "id": "TXN-1763884126",
+          "timestamp": "2025-11-23 13:18",
+          "type": "transfer_in",
+          "amount": 10000.0,
+          "note": "Payment",
+          "category": "Uncategorized",
+          "counterparty": "sam"
+        },
+        {
+          "id": "TXN-1763884789",
+          "timestamp": "2025-11-23 13:29",
+          "type": "transfer_in",
+          "amount": 1000.0,
+          "note": "Payment",
+          "category": "Uncategorized",
+          "counterparty": "sanket"
+        }
+      ],
+      "notifications": [
+        {
+          "time": "13:29",
+          "msg": "Received \u20b91000.0 from sanket"
+        }
+      ]
+    },
+    "supriya": {
+      "pin": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "balance": 12000.0,
+      "locked": false,
+      "is_verified": true,
+      "enable_2fa": false,
+      "transactions": [
+        {
+          "id": "TXN-1763879386",
+          "timestamp": "2025-11-23 11:59",
+          "type": "deposit",
+          "amount": 10000.0,
+          "note": "Opening Balance",
+          "category": "Other",
+          "counterparty": "Self"
+        },
+        {
+          "id": "TXN-1763879545",
+          "timestamp": "2025-11-23 12:02",
+          "type": "transfer_out",
+          "amount": 100.0,
+          "note": "Payment",
+          "category": "Transfer",
+          "counterparty": "arati"
+        },
+        {
+          "id": "TXN-1763880058",
+          "timestamp": "2025-11-23 12:10",
+          "type": "transfer_in",
+          "amount": 100.0,
+          "note": "Payment",
+          "category": "Uncategorized",
+          "counterparty": "samadhan"
+        },
+        {
+          "id": "TXN-1763880739",
+          "timestamp": "2025-11-23 12:22",
+          "type": "transfer_in",
+          "amount": 1000.0,
+          "note": "Payment",
+          "category": "Uncategorized",
+          "counterparty": "samadhan"
+        },
+        {
+          "id": "TXN-1763881030",
+          "timestamp": "2025-11-23 12:27",
+          "type": "transfer_in",
+          "amount": 1000.0,
+          "note": "Payment",
+          "category": "Uncategorized",
+          "counterparty": "samadhan"
+        }
+      ],
+      "notifications": []
+    },
+    "demo": {
+      "pin": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "balance": 10000.0,
+      "locked": false,
+      "is_verified": true,
+      "enable_2fa": false,
+      "transactions": [
+        {
+          "id": "TXN-1763881514",
+          "timestamp": "2025-11-23 12:35",
+          "type": "deposit",
+          "amount": 10000.0,
+          "note": "Opening Balance",
+          "category": "Other",
+          "counterparty": "Self"
+        }
+      ],
+      "notifications": []
+    },
+    "my": {
+      "pin": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "balance": 10000.0,
+      "locked": false,
+      "is_verified": true,
+      "enable_2fa": false,
+      "transactions": [
+        {
+          "id": "TXN-1763881984",
+          "timestamp": "2025-11-23 12:43",
+          "type": "deposit",
+          "amount": 10000.0,
+          "note": "Opening Balance",
+          "category": "Other",
+          "counterparty": "Self"
+        }
+      ],
+      "notifications": []
+    },
+    "x": {
+      "pin": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "balance": 10000.0,
+      "locked": false,
+      "is_verified": false,
+      "enable_2fa": false,
+      "transactions": [
+        {
+          "id": "TXN-1763882347",
+          "timestamp": "2025-11-23 12:49",
+          "type": "deposit",
+          "amount": 10000.0,
+          "note": "Opening Balance",
+          "category": "Other",
+          "counterparty": "Self"
+        }
+      ],
+      "notifications": []
+    },
+    "z": {
+      "pin": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "balance": 10000.0,
+      "locked": false,
+      "is_verified": true,
+      "enable_2fa": false,
+      "transactions": [
+        {
+          "id": "TXN-1763882633",
+          "timestamp": "2025-11-23 12:53",
+          "type": "deposit",
+          "amount": 10000.0,
+          "note": "Opening Balance",
+          "category": "Other",
+          "counterparty": "Self"
+        }
+      ],
+      "notifications": []
+    },
+    "sam": {
+      "pin": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "balance": 0.0,
+      "locked": false,
+      "is_verified": true,
+      "enable_2fa": false,
+      "transactions": [
+        {
+          "id": "TXN-1763884085",
+          "timestamp": "2025-11-23 13:18",
+          "type": "deposit",
+          "amount": 10000.0,
+          "note": "Opening Balance",
+          "category": "Other",
+          "counterparty": "Self"
+        },
+        {
+          "id": "TXN-1763884126",
+          "timestamp": "2025-11-23 13:18",
+          "type": "transfer_out",
+          "amount": 10000.0,
+          "note": "Payment",
+          "category": "Transfer",
+          "counterparty": "arati"
+        }
+      ],
+      "notifications": []
+    },
+    "sanket": {
+      "pin": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "balance": 9000.0,
+      "locked": false,
+      "is_verified": true,
+      "enable_2fa": false,
+      "transactions": [
+        {
+          "id": "TXN-1763884766",
+          "timestamp": "2025-11-23 13:29",
+          "type": "deposit",
+          "amount": 10000.0,
+          "note": "Opening Balance",
+          "category": "Other",
+          "counterparty": "Self"
+        },
+        {
+          "id": "TXN-1763884789",
+          "timestamp": "2025-11-23 13:29",
+          "type": "transfer_out",
+          "amount": 1000.0,
+          "note": "Payment",
+          "category": "Transfer",
+          "counterparty": "arati"
+        }
+      ],
+      "notifications": []
+    }
+  }
+}
